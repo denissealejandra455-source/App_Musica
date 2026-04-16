@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Música Pop - HTML5 Web App</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="img/logoPop.webp" alt="Logo Música Pop">
+      <div>
+        <h1>Música Pop</h1>
+        <p>El sonido que domina las listas de éxitos</p>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#que-es">¿Qué es?</a>
+      <a href="#estructura">Estructura</a>
+      <a href="#etiquetas">Etiquetas</a>
+      <a href="#semantica">Semántica</a>
+      <a href="#formularios">Formularios</a>
+      <a href="#multimedia">Multimedia</a>
+      <a href="#conclusion">Conclusión</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-texto">
+        <span class="badge">Tema de la práctica</span>
+        <h2>Aprendiendo HTML5 con Música Pop</h2>
+        <p>
+          El objetivo de esta página es usar HTML5 para explicar qué es la música pop, 
+          sus características, estructura de las canciones y su impacto en la cultura.
+        </p>
+        <a href="#que-es" class="btn">Comenzar</a>
+      </div>
+      <div class="hero-imagen">
+        <img src="img/logoPop.webp" alt="Logo Música Pop">
+      </div>
+    </section>
+
+    <section id="que-es" class="seccion">
+      <article class="card">
+        <h2>¿Qué es la música pop?</h2>
+        <p>
+         La música pop es un género popular que busca ser pegajoso y fácil de escuchar para el público masivo.
+         Se caracteriza por melodías simples, estribillos repetitivos y ritmos bailables. Domina las listas de éxitos 
+         y evoluciona con las tendencias de cada década, mezclando elementos de otros géneros como rock, dance o R&B.
+        </p>
+      </article>
+    </section>
+
+    <section id="estructura" class="seccion">
+      <article class="card">
+        <h2>Estructura básica de una canción pop</h2>
+        <img src="img/estructura-pop.png" alt="Estructura canción pop">
+        <div class="codigo">
+          Intro<br>
+          Verso<br>
+          Pre-coro<br>
+          Coro<br>
+          Verso 2<br>
+          Pre-coro<br>
+          Coro<br>
+          Puente<br>
+          Coro final
+        </div>
+        <h2>Función del Intro:</h2>
+        <p>
+          Son los primeros segundos que enganchan al oyente. Suele presentar el ritmo o un hook instrumental 
+          para captar la atención antes de la voz.
+        </p>
+        <h2>Función del Verso:</h2>
+        <p>
+          Cuenta la historia de la canción. Desarrolla la letra y prepara emocionalmente al oyente para el coro.
+        </p>
+        <h2>Función del Coro:</h2>
+        <p>
+          Es la parte más pegajosa y repetitiva. Contiene el mensaje principal y la melodía que el público recuerda y canta.
+        </p>
+        <h2>Función del Puente:</h2>
+        <p>
+          Rompe la estructura para dar variedad. Cambia acordes o ritmo y crea tensión antes de volver al coro final.
+        </p>
+      </article>
+    </section>
+
+    <section id="etiquetas" class="seccion">
+      <article class="card">
+        <h2>Elementos principales del pop</h2>
+        <img src="img/elementos-pop.png" alt="Elementos del pop">
+        <div class="grid">
+          <div class="mini-card">
+            <h3>h1 - h6</h3>
+            <p>
+              Como los títulos de álbumes y canciones. `<h1>` sería el nombre del artista, `<h2>` el nombre del disco, 
+              `<h3>` cada track. Dan jerarquía igual que en una portada.
+            </p>
+          </div>
+          <div class="mini-card">
+            <h3>p</h3>
+            <p>La etiqueta `<p>` sería la letra de la canción. Cada estrofa o verso va en un párrafo para separar ideas.</p>
+          </div>
+          <div class="mini-card">
+            <h3>img</h3>
+            <p>La etiqueta `<img>` muestra la portada del álbum o fotos del artista. El `alt` describe la imagen para accesibilidad.</p>
+          </div>
+          <div class="mini-card">
+            <h3>a</h3>
+            <p>La etiqueta `<a>` funciona como enlace a Spotify, YouTube o el videoclip oficial. Conecta al fan con la música.</p>
+          </div>
+          <div class="mini-card">
+            <h3>button</h3>
+            <p>La etiqueta `button` es el botón de "Play" o "Seguir" en plataformas. Ejecuta la acción de reproducir la canción.</p>
+          </div>
+          <div class="mini-card">
+            <h3>ul / ol / li</h3>
+            <p>Las listas crean el tracklist del disco. `<ol>` para numerar canciones del 1 al 12, `<ul>` para listar géneros o colaboradores.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="semantica" class="seccion">
+      <article class="card">
+        <h2>HTML5 semántico aplicado al pop</h2>
+        <img src="img/semantica-pop.png" alt="HTML5 semántico pop">
+        <div class="grid">
+          <div class="mini-card">
+            <h3>header</h3>
+            <p>Sería la cabecera del sitio del artista: logo, nombre y menú con "Música", "Tour", "Merch".</p>
+          </div>
+          <div class="mini-card">
+            <h3>nav</h3>
+            <p>Agrupa los enlaces principales para navegar entre discografía, videos y redes sociales del artista.</p>
+          </div>
+          <div class="mini-card">
+            <h3>main</h3>
+            <p>Contiene lo importante: el nuevo sencillo, el reproductor y la letra destacada de la canción.</p>
+          </div>
+          <div class="mini-card">
+            <h3>section</h3>
+            <p>Separa por temas: una sección para "Últimos lanzamientos", otra para "Conciertos", otra para "Biografía".</p>
+          </div>
+          <div class="mini-card">
+            <h3>article</h3>
+            <p>Cada noticia o reseña de un álbum es un `<article>`. Contenido independiente que puedes compartir.</p>
+          </div>
+          <div class="mini-card">
+            <h3>footer</h3>
+            <p>El pie de página con derechos de autor del disco, links a disquera, redes sociales y contacto de prensa.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="formularios" class="seccion">
+      <article class="card">
+        <h2>Formularios en sitios de música pop</h2>
+        <img src="img/formularios-pop.png" alt="Formularios música pop">
+        <p>
+         Los formularios permiten a los fans suscribirse al newsletter, comprar boletos o dejar comentarios.
+         Se usa `<form>` con campos como nombre, email y mensaje para conectar artista con audiencia.
+        </p>
+        <form class="demo-form">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Tu nombre de fan">
+
+          <label for="correo">Correo</label>
+          <input type="email" id="correo" placeholder="tucorreo@email.com">
+
+          <label for="comentario">Mensaje para el artista</label>
+          <textarea id="comentario" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+
+          <button type="button">Enviar</button>
+        </form>
+      </article>
+    </section>
+
+    <section id="multimedia" class="seccion">
+      <article class="card">
+        <h2>Multimedia en el pop</h2>
+        <p>
+          El pop vive de lo audiovisual. HTML5 permite insertar videoclips, adelantos de canciones y portadas 
+          directamente sin plugins, usando `<img>`, `<audio>` y `<video>`.
+        </p>
+        <div class="grid">
+          <div class="mini-card">
+            <h3>Imágenes</h3>
+            <p>`<img>` muestra portadas de álbumes, posters de giras y fotos promocionales. El `alt` ayuda a fans con discapacidad visual.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Audio</h3>
+            <p>`<audio>` reproduce adelantos de 30 segundos o la canción completa. Base de Spotify y Apple Music en la web.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Video</h3>
+            <p>`<video>` inserta el videoclip oficial o lyric videos directo en la página del artista sin ir a YouTube.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Accesibilidad</h3>
+            <p>Usar `alt` en imágenes y subtítulos en videos permite que todos los fans disfruten el contenido, incluyendo personas sordas o ciegas.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="conclusion" class="seccion">
+      <article class="card">
+        <h2>Conclusión</h2>
+        <p>
+          La música pop domina la cultura global gracias a su sonido accesible y pegajoso. Así como HTML estructura la web, 
+          la estructura verso-coro-verso organiza una canción pop para conectar con millones. HTML5 nos permite presentar 
+          artistas, álbumes y videos de forma semántica y moderna.
+        </p>
+        <p><strong>Alumno:</strong> Denisse Reyes</p>
+        <p><strong>Materia:</strong> Desarrollo de Aplicaciones Móviles para iOS</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Práctica HTML5: Música Pop. Submódulo 2</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
